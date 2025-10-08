@@ -1,0 +1,501 @@
+Pallet_ID,Customer_ID,Origin_Location,Destination_Location,Date_Shipped,Date_Returned,Status,Delay_Days,Movement_Type,Condition,Notes
+P00001,C009,Warehouse_B,Site_23,2025-04-13,,In Transit,1.0,Standard,Good,
+P00002,C015,Warehouse_B,Site_28,2025-04-17,2025-05-01,Returned,2.0,Standard,Good,
+P00003,C019,Warehouse_A,Site_23,2025-03-16,,Lost,0.0,Standard,Lost,Flagged for delay
+P00004,C004,Warehouse_C,Site_18,2025-04-10,2025-04-14,Returned,0.0,Return,Good,Inspected on return
+P00005,C001,Warehouse_B,Site_7,2025-06-07,2025-06-17,Returned,3.0,Return,Good,
+P00006,C005,Warehouse_B,Site_9,2025-02-27,2025-03-13,Returned,3.0,Express,Good,
+P00007,C014,Warehouse_B,Site_10,2025-02-28,2025-03-05,Returned,,Return,Good,Awaiting investigation
+P00008,C013,Warehouse_B,Site_27,2025-03-05,2025-03-10,Returned,0.0,Express,Good,Awaiting investigation
+P00009,C011,Warehouse_A,Site_10,2025-03-14,2025-03-25,Returned,,Return,Damaged,Inspected on return
+P00010,C009,Warehouse_C,Site_20,2025-01-09,2025-01-15,Returned,0.0,Standard,Good,Awaiting investigation
+P00011,C015,Warehouse_C,Site_16,2025-06-21,,Lost,2.0,Return,Lost,Awaiting investigation
+P00012,C020,Warehouse_B,Site_27,2025-02-04,2025-02-11,Returned,3.0,Express,Good,Awaiting investigation
+P00013,C001,Warehouse_A,Site_23,2025-01-02,2025-01-17,Returned,3.0,Return,Good,
+P00014,C005,Warehouse_B,Site_30,2025-05-26,2025-06-07,Returned,0.0,Express,Damaged,Inspected on return
+P00015,C007,Warehouse_B,Site_7,2025-01-14,,In Transit,,Express,Good,Awaiting investigation
+P00016,C017,Warehouse_A,Site_13,2025-02-09,2025-02-15,Returned,2.0,Return,Good,
+P00017,C019,Warehouse_C,Site_6,2025-01-24,,In Transit,0.0,Standard,Good,
+P00018,C019,Warehouse_B,Site_12,2025-05-04,2025-05-09,Returned,2.0,Return,Good,Awaiting investigation
+P00019,C003,Warehouse_B,Site_24,2025-01-09,2025-01-19,Returned,0.0,Express,Good,Awaiting investigation
+P00020,C005,Warehouse_B,Site_25,2025-03-22,2025-04-04,Late Return,0.0,Express,Good,Inspected on return
+P00021,C010,Warehouse_B,Site_21,2025-02-10,,Lost,1.0,Express,Lost,
+P00022,C006,Warehouse_A,Site_17,2025-03-13,2025-03-23,Returned,1.0,Express,Good,Flagged for delay
+P00023,C001,Warehouse_B,Site_2,2025-02-06,2025-02-14,Returned,0.0,Express,Damaged,
+P00024,C004,Warehouse_A,Site_4,2025-04-11,2025-04-14,Late Return,,Express,Good,
+P00025,C001,Warehouse_A,Site_30,2025-05-22,2025-06-03,Returned,,Return,Good,Awaiting investigation
+P00026,C009,Warehouse_A,Site_2,2025-06-28,,Lost,,Express,Lost,Flagged for delay
+P00027,C009,Warehouse_B,Site_12,2025-02-21,2025-03-02,Returned,2.0,Express,Good,Inspected on return
+P00028,C010,Warehouse_C,Site_11,2025-05-23,2025-06-01,Returned,0.0,Express,Good,Awaiting investigation
+P00029,C014,Warehouse_B,Site_15,2025-03-27,,In Transit,1.0,Return,Good,
+P00030,C013,Warehouse_B,Site_25,2025-02-14,2025-02-25,Late Return,3.0,Standard,Good,Inspected on return
+P00031,C014,Warehouse_B,Site_10,2025-04-18,2025-05-02,Returned,1.0,Express,Good,
+P00032,C014,Warehouse_C,Site_30,2025-04-02,2025-04-05,Returned,0.0,Standard,Good,
+P00033,C009,Warehouse_A,Site_4,2025-01-27,2025-02-10,Returned,3.0,Return,Good,Awaiting investigation
+P00034,C003,Warehouse_B,Site_13,2025-06-04,2025-06-07,Returned,0.0,Return,Good,
+P00035,C001,Warehouse_C,Site_22,2025-06-21,2025-07-01,Returned,,Return,Good,Flagged for delay
+P00036,C006,Warehouse_C,Site_15,2025-04-23,,In Transit,3.0,Return,Good,Awaiting investigation
+P00037,C006,Warehouse_C,Site_29,2025-02-21,2025-02-26,Returned,1.0,Return,Good,Flagged for delay
+P00038,C002,Warehouse_C,Site_21,2025-04-11,,In Transit,0.0,Return,Good,
+P00039,C013,Warehouse_A,Site_22,2025-04-23,2025-05-01,Returned,0.0,Return,Good,Flagged for delay
+P00040,C020,Warehouse_A,Site_25,2025-05-09,2025-05-16,Late Return,0.0,Standard,Good,Flagged for delay
+P00041,C020,Warehouse_A,Site_20,2025-06-09,2025-06-18,Returned,3.0,Return,Good,Awaiting investigation
+P00042,C009,Warehouse_C,Site_28,2025-05-03,2025-05-13,Late Return,0.0,Express,Good,
+P00043,C017,Warehouse_C,Site_2,2025-04-08,2025-04-14,Returned,3.0,Return,Good,Inspected on return
+P00044,C006,Warehouse_A,Site_2,2025-03-11,,Lost,2.0,Express,Lost,
+P00045,C007,Warehouse_C,Site_16,2025-06-13,2025-06-18,Late Return,0.0,Express,Good,Inspected on return
+P00046,C002,Warehouse_B,Site_3,2025-02-21,2025-03-02,Late Return,0.0,Return,Damaged,
+P00047,C014,Warehouse_B,Site_8,2025-05-09,2025-05-20,Returned,0.0,Standard,Good,Inspected on return
+P00048,C015,Warehouse_C,Site_18,2025-06-08,2025-06-20,Late Return,3.0,Return,Good,
+P00049,C018,Warehouse_B,Site_3,2025-03-31,2025-04-03,Returned,0.0,Standard,Good,
+P00050,C002,Warehouse_B,Site_20,2025-02-17,,Lost,3.0,Standard,Lost,
+P00051,C009,Warehouse_A,Site_16,2025-02-06,2025-02-17,Returned,0.0,Standard,Good,Awaiting investigation
+P00052,C019,Warehouse_B,Site_4,2025-02-17,,Lost,0.0,Express,Lost,Flagged for delay
+P00053,C015,Warehouse_A,Site_17,2025-02-23,2025-03-08,Late Return,0.0,Standard,Damaged,Awaiting investigation
+P00054,C006,Warehouse_A,Site_3,2025-06-13,2025-06-21,Late Return,3.0,Standard,Good,
+P00055,C018,Warehouse_B,Site_1,2025-04-09,2025-04-13,Returned,0.0,Standard,Good,
+P00056,C017,Warehouse_B,Site_7,2025-06-12,2025-06-17,Returned,2.0,Standard,Good,Flagged for delay
+P00057,C001,Warehouse_B,Site_12,2025-05-22,2025-06-03,Returned,2.0,Standard,Good,Inspected on return
+P00058,C016,Warehouse_A,Site_14,2025-05-15,2025-05-18,Late Return,0.0,Return,Good,
+P00059,C003,Warehouse_B,Site_20,2025-04-25,2025-05-06,Returned,3.0,Return,Damaged,Awaiting investigation
+P00060,C008,Warehouse_C,Site_14,2025-02-20,,In Transit,3.0,Return,Good,Inspected on return
+P00061,C006,Warehouse_B,Site_8,2025-01-27,2025-01-30,Returned,0.0,Return,Good,Inspected on return
+P00062,C017,Warehouse_A,Site_14,2025-03-02,2025-03-05,Returned,0.0,Express,Good,Flagged for delay
+P00063,C020,Warehouse_A,Site_2,2025-06-21,2025-06-29,Returned,1.0,Express,Damaged,
+P00064,C002,Warehouse_C,Site_13,2025-05-04,,In Transit,0.0,Return,Good,
+P00065,C017,Warehouse_B,Site_6,2025-04-03,2025-04-08,Returned,0.0,Return,Damaged,
+P00066,C007,Warehouse_A,Site_2,2025-04-26,2025-05-05,Returned,,Express,Good,
+P00067,C007,Warehouse_A,Site_16,2025-03-08,2025-03-16,Returned,0.0,Express,Good,Flagged for delay
+P00068,C007,Warehouse_A,Site_13,2025-04-14,2025-04-25,Returned,3.0,Standard,Good,
+P00069,C011,Warehouse_A,Site_15,2025-05-07,2025-05-19,Returned,0.0,Return,Good,Inspected on return
+P00070,C020,Warehouse_C,Site_20,2025-06-10,2025-06-19,Late Return,0.0,Express,Good,Awaiting investigation
+P00071,C017,Warehouse_A,Site_4,2025-01-26,2025-02-05,Returned,0.0,Return,Damaged,Inspected on return
+P00072,C010,Warehouse_B,Site_2,2025-05-15,2025-05-21,Late Return,0.0,Express,Good,Awaiting investigation
+P00073,C014,Warehouse_A,Site_15,2025-05-24,,Lost,3.0,Return,Lost,Flagged for delay
+P00074,C002,Warehouse_C,Site_4,2025-05-23,2025-06-02,Returned,1.0,Return,Good,Awaiting investigation
+P00075,C016,Warehouse_A,Site_3,2025-02-20,2025-02-28,Returned,0.0,Return,Good,Awaiting investigation
+P00076,C013,Warehouse_A,Site_7,2025-03-27,2025-04-04,Returned,0.0,Standard,Good,Awaiting investigation
+P00077,C018,Warehouse_C,Site_12,2025-04-11,,Lost,0.0,Return,Lost,
+P00078,C010,Warehouse_A,Site_4,2025-03-01,,In Transit,1.0,Express,Good,Awaiting investigation
+P00079,C011,Warehouse_B,Site_6,2025-04-13,,Lost,1.0,Return,Lost,
+P00080,C004,Warehouse_C,Site_12,2025-04-26,2025-05-08,Returned,3.0,Return,Good,Awaiting investigation
+P00081,C004,Warehouse_A,Site_4,2025-05-24,,In Transit,2.0,Standard,Good,Inspected on return
+P00082,C011,Warehouse_A,Site_20,2025-04-16,2025-04-29,Returned,3.0,Standard,Good,Flagged for delay
+P00083,C014,Warehouse_C,Site_9,2025-04-02,2025-04-09,Returned,0.0,Standard,Good,
+P00084,C014,Warehouse_B,Site_13,2025-03-03,2025-03-10,Returned,,Express,Good,Inspected on return
+P00085,C017,Warehouse_C,Site_30,2025-05-02,2025-05-10,Returned,0.0,Return,Good,Inspected on return
+P00086,C003,Warehouse_C,Site_15,2025-04-27,,In Transit,0.0,Standard,Good,Inspected on return
+P00087,C015,Warehouse_B,Site_14,2025-03-10,2025-03-18,Late Return,3.0,Standard,Good,
+P00088,C017,Warehouse_B,Site_1,2025-05-24,2025-06-04,Late Return,0.0,Standard,Good,Flagged for delay
+P00089,C006,Warehouse_B,Site_7,2025-03-10,2025-03-16,Returned,,Return,Good,Flagged for delay
+P00090,C019,Warehouse_A,Site_18,2025-05-24,2025-05-31,Late Return,0.0,Standard,Good,Awaiting investigation
+P00091,C006,Warehouse_B,Site_29,2025-02-02,2025-02-14,Returned,3.0,Express,Good,Awaiting investigation
+P00092,C014,Warehouse_A,Site_29,2025-03-10,2025-03-23,Returned,1.0,Standard,Good,Awaiting investigation
+P00093,C006,Warehouse_C,Site_2,2025-04-06,2025-04-12,Returned,0.0,Standard,Good,Flagged for delay
+P00094,C016,Warehouse_C,Site_21,2025-03-21,,In Transit,,Return,Good,Flagged for delay
+P00095,C012,Warehouse_C,Site_26,2025-05-08,,Lost,0.0,Express,Lost,Inspected on return
+P00096,C019,Warehouse_B,Site_2,2025-05-20,2025-05-23,Returned,0.0,Express,Good,
+P00097,C002,Warehouse_A,Site_19,2025-06-28,,In Transit,0.0,Express,Good,
+P00098,C018,Warehouse_C,Site_8,2025-03-08,,In Transit,0.0,Express,Good,Inspected on return
+P00099,C004,Warehouse_A,Site_4,2025-03-15,2025-03-19,Returned,0.0,Express,Good,Inspected on return
+P00100,C015,Warehouse_C,Site_19,2025-02-04,2025-02-14,Returned,,Return,Good,
+P00101,C001,Warehouse_C,Site_14,2025-03-31,,Lost,3.0,Return,Lost,Awaiting investigation
+P00102,C015,Warehouse_C,Site_12,2025-04-15,2025-04-22,Returned,,Express,Good,Inspected on return
+P00103,C007,Warehouse_A,Site_30,2025-03-16,2025-03-29,Returned,2.0,Return,Damaged,Inspected on return
+P00104,C002,Warehouse_A,Site_19,2025-06-13,2025-06-23,Returned,0.0,Standard,Damaged,Inspected on return
+P00105,C016,Warehouse_C,Site_1,2025-06-26,2025-06-30,Returned,0.0,Express,Good,
+P00106,C013,Warehouse_C,Site_30,2025-04-06,,In Transit,,Return,Good,
+P00107,C019,Warehouse_B,Site_4,2025-02-06,2025-02-16,Returned,1.0,Return,Good,Awaiting investigation
+P00108,C015,Warehouse_C,Site_2,2025-04-15,,In Transit,3.0,Return,Good,Inspected on return
+P00109,C001,Warehouse_B,Site_11,2025-03-03,,Lost,1.0,Express,Lost,
+P00110,C010,Warehouse_B,Site_17,2025-03-27,,Lost,2.0,Standard,Lost,
+P00111,C009,Warehouse_C,Site_1,2025-06-26,2025-07-08,Returned,1.0,Express,Damaged,Inspected on return
+P00112,C006,Warehouse_C,Site_4,2025-01-09,,In Transit,,Express,Good,
+P00113,C003,Warehouse_B,Site_17,2025-05-08,2025-05-16,Returned,1.0,Standard,Good,
+P00114,C001,Warehouse_C,Site_12,2025-05-20,2025-05-27,Returned,0.0,Express,Good,Flagged for delay
+P00115,C010,Warehouse_A,Site_16,2025-05-31,2025-06-07,Returned,0.0,Return,Good,
+P00116,C013,Warehouse_C,Site_8,2025-06-16,2025-06-26,Returned,3.0,Standard,Good,
+P00117,C004,Warehouse_B,Site_19,2025-03-16,,In Transit,0.0,Standard,Good,
+P00118,C007,Warehouse_A,Site_22,2025-01-09,,Lost,0.0,Standard,Lost,Flagged for delay
+P00119,C002,Warehouse_B,Site_25,2025-05-25,,Lost,2.0,Return,Lost,Awaiting investigation
+P00120,C014,Warehouse_C,Site_4,2025-06-23,2025-07-06,Returned,2.0,Return,Damaged,Inspected on return
+P00121,C016,Warehouse_C,Site_25,2025-05-02,2025-05-09,Returned,0.0,Return,Good,Flagged for delay
+P00122,C007,Warehouse_A,Site_3,2025-05-16,2025-05-24,Returned,2.0,Standard,Good,Awaiting investigation
+P00123,C006,Warehouse_B,Site_29,2025-03-12,2025-03-18,Returned,0.0,Express,Good,Flagged for delay
+P00124,C012,Warehouse_C,Site_10,2025-06-08,2025-06-16,Late Return,0.0,Standard,Good,Inspected on return
+P00125,C005,Warehouse_A,Site_21,2025-03-31,2025-04-05,Returned,0.0,Standard,Good,Inspected on return
+P00126,C012,Warehouse_B,Site_16,2025-05-06,2025-05-16,Late Return,0.0,Standard,Good,Flagged for delay
+P00127,C010,Warehouse_B,Site_21,2025-04-15,2025-04-26,Late Return,,Standard,Good,
+P00128,C011,Warehouse_C,Site_6,2025-04-23,,Lost,0.0,Standard,Lost,
+P00129,C016,Warehouse_C,Site_25,2025-06-15,,In Transit,2.0,Return,Good,Flagged for delay
+P00130,C014,Warehouse_B,Site_24,2025-02-13,,In Transit,2.0,Return,Good,Awaiting investigation
+P00131,C003,Warehouse_B,Site_18,2025-03-02,,Lost,,Express,Lost,
+P00132,C020,Warehouse_A,Site_9,2025-04-28,,In Transit,2.0,Standard,Good,Awaiting investigation
+P00133,C004,Warehouse_B,Site_11,2025-06-13,2025-06-24,Late Return,0.0,Express,Good,Flagged for delay
+P00134,C011,Warehouse_C,Site_29,2025-02-18,2025-02-24,Returned,3.0,Express,Good,Inspected on return
+P00135,C018,Warehouse_A,Site_6,2025-04-28,,In Transit,0.0,Return,Good,Awaiting investigation
+P00136,C011,Warehouse_C,Site_9,2025-01-12,,In Transit,0.0,Return,Good,
+P00137,C013,Warehouse_B,Site_11,2025-04-12,2025-04-20,Returned,1.0,Standard,Good,Flagged for delay
+P00138,C012,Warehouse_C,Site_29,2025-04-02,2025-04-15,Returned,1.0,Return,Good,Inspected on return
+P00139,C005,Warehouse_C,Site_24,2025-01-28,2025-02-04,Returned,1.0,Express,Damaged,Flagged for delay
+P00140,C013,Warehouse_A,Site_13,2025-05-25,2025-05-31,Returned,0.0,Standard,Good,Inspected on return
+P00141,C014,Warehouse_C,Site_10,2025-06-06,,In Transit,2.0,Standard,Good,
+P00142,C001,Warehouse_A,Site_29,2025-05-14,2025-05-21,Returned,0.0,Express,Good,Awaiting investigation
+P00143,C018,Warehouse_A,Site_3,2025-01-10,,Lost,3.0,Standard,Lost,Flagged for delay
+P00144,C009,Warehouse_C,Site_28,2025-04-19,2025-04-24,Returned,2.0,Return,Good,Flagged for delay
+P00145,C020,Warehouse_B,Site_4,2025-05-26,2025-06-02,Returned,,Express,Good,Flagged for delay
+P00146,C003,Warehouse_C,Site_1,2025-03-27,,Lost,0.0,Standard,Lost,
+P00147,C010,Warehouse_B,Site_27,2025-06-10,2025-06-13,Returned,0.0,Return,Good,
+P00148,C011,Warehouse_C,Site_30,2025-02-24,2025-03-06,Late Return,3.0,Express,Damaged,Awaiting investigation
+P00149,C014,Warehouse_B,Site_11,2025-04-12,2025-04-19,Returned,0.0,Express,Good,Awaiting investigation
+P00150,C013,Warehouse_C,Site_5,2025-03-24,2025-04-04,Returned,0.0,Return,Good,Flagged for delay
+P00151,C019,Warehouse_B,Site_23,2025-02-20,2025-02-25,Late Return,2.0,Express,Good,
+P00152,C001,Warehouse_B,Site_18,2025-02-01,2025-02-11,Returned,0.0,Standard,Good,Awaiting investigation
+P00153,C009,Warehouse_B,Site_3,2025-06-11,2025-06-27,Late Return,3.0,Express,Good,
+P00154,C013,Warehouse_A,Site_12,2025-02-23,2025-03-09,Returned,1.0,Express,Good,
+P00155,C017,Warehouse_C,Site_20,2025-04-22,2025-04-29,Returned,,Return,Good,Awaiting investigation
+P00156,C013,Warehouse_B,Site_27,2025-03-07,2025-03-15,Returned,0.0,Express,Good,
+P00157,C014,Warehouse_B,Site_28,2025-02-07,2025-02-20,Returned,0.0,Return,Good,
+P00158,C018,Warehouse_A,Site_9,2025-02-21,2025-03-03,Returned,0.0,Standard,Damaged,Inspected on return
+P00159,C004,Warehouse_B,Site_10,2025-01-30,2025-02-02,Returned,,Express,Damaged,Inspected on return
+P00160,C017,Warehouse_C,Site_5,2025-05-12,,In Transit,0.0,Standard,Good,
+P00161,C006,Warehouse_B,Site_8,2025-03-15,2025-03-25,Returned,0.0,Standard,Good,
+P00162,C019,Warehouse_C,Site_24,2025-01-06,2025-01-21,Returned,2.0,Return,Good,Inspected on return
+P00163,C018,Warehouse_B,Site_2,2025-04-25,2025-05-04,Returned,,Return,Good,Awaiting investigation
+P00164,C012,Warehouse_B,Site_23,2025-04-28,2025-05-09,Returned,1.0,Return,Good,Flagged for delay
+P00165,C019,Warehouse_C,Site_6,2025-04-06,2025-04-10,Returned,0.0,Return,Good,
+P00166,C019,Warehouse_A,Site_1,2025-02-20,,Lost,0.0,Express,Lost,
+P00167,C007,Warehouse_A,Site_2,2025-04-02,2025-04-09,Returned,0.0,Express,Good,
+P00168,C011,Warehouse_C,Site_9,2025-05-13,2025-05-17,Returned,0.0,Standard,Good,Inspected on return
+P00169,C004,Warehouse_C,Site_27,2025-02-14,2025-02-25,Returned,0.0,Return,Good,Awaiting investigation
+P00170,C014,Warehouse_A,Site_29,2025-02-25,2025-03-03,Returned,3.0,Express,Good,Inspected on return
+P00171,C013,Warehouse_B,Site_1,2025-01-01,2025-01-07,Returned,0.0,Return,Good,
+P00172,C003,Warehouse_C,Site_29,2025-05-07,2025-05-19,Returned,3.0,Return,Good,Inspected on return
+P00173,C018,Warehouse_B,Site_2,2025-05-10,2025-05-25,Returned,2.0,Return,Good,Awaiting investigation
+P00174,C001,Warehouse_C,Site_7,2025-01-07,,Lost,0.0,Express,Lost,
+P00175,C017,Warehouse_B,Site_29,2025-04-17,2025-04-21,Returned,,Standard,Good,
+P00176,C013,Warehouse_C,Site_27,2025-04-25,2025-05-04,Returned,,Standard,Good,Inspected on return
+P00177,C009,Warehouse_A,Site_7,2025-02-08,,Lost,0.0,Return,Lost,
+P00178,C002,Warehouse_C,Site_2,2025-03-27,2025-04-07,Returned,0.0,Express,Damaged,Inspected on return
+P00179,C017,Warehouse_A,Site_30,2025-01-25,2025-02-06,Returned,1.0,Standard,Good,
+P00180,C010,Warehouse_B,Site_17,2025-04-21,2025-04-26,Returned,1.0,Standard,Good,Flagged for delay
+P00181,C002,Warehouse_B,Site_11,2025-06-17,2025-06-29,Returned,0.0,Return,Good,Awaiting investigation
+P00182,C012,Warehouse_A,Site_10,2025-01-06,2025-01-11,Late Return,1.0,Standard,Good,Awaiting investigation
+P00183,C015,Warehouse_C,Site_27,2025-02-28,2025-03-13,Returned,2.0,Standard,Good,
+P00184,C015,Warehouse_B,Site_30,2025-05-30,2025-06-10,Returned,2.0,Standard,Good,
+P00185,C006,Warehouse_C,Site_1,2025-04-04,2025-04-14,Returned,0.0,Return,Damaged,
+P00186,C010,Warehouse_B,Site_29,2025-05-11,2025-05-18,Returned,0.0,Return,Damaged,
+P00187,C003,Warehouse_A,Site_28,2025-01-06,2025-01-19,Returned,0.0,Express,Damaged,Inspected on return
+P00188,C020,Warehouse_A,Site_7,2025-05-14,2025-05-27,Returned,3.0,Standard,Good,Awaiting investigation
+P00189,C013,Warehouse_A,Site_19,2025-03-03,2025-03-16,Late Return,0.0,Standard,Good,Flagged for delay
+P00190,C019,Warehouse_A,Site_24,2025-06-28,2025-07-08,Late Return,2.0,Return,Damaged,Inspected on return
+P00191,C018,Warehouse_A,Site_4,2025-03-09,2025-03-15,Returned,0.0,Return,Good,
+P00192,C014,Warehouse_A,Site_29,2025-02-16,2025-02-24,Late Return,0.0,Express,Good,Inspected on return
+P00193,C008,Warehouse_C,Site_24,2025-05-19,2025-06-01,Returned,,Standard,Good,Flagged for delay
+P00194,C005,Warehouse_C,Site_8,2025-05-14,2025-05-21,Returned,0.0,Express,Good,
+P00195,C002,Warehouse_C,Site_3,2025-06-21,2025-06-25,Returned,0.0,Express,Good,
+P00196,C004,Warehouse_C,Site_20,2025-03-04,2025-03-17,Returned,2.0,Standard,Good,Inspected on return
+P00197,C017,Warehouse_B,Site_25,2025-06-01,2025-06-07,Returned,3.0,Return,Damaged,
+P00198,C017,Warehouse_C,Site_21,2025-06-27,,In Transit,3.0,Standard,Good,Awaiting investigation
+P00199,C004,Warehouse_B,Site_9,2025-05-17,2025-05-22,Returned,0.0,Standard,Damaged,
+P00200,C003,Warehouse_A,Site_18,2025-03-05,2025-03-18,Returned,3.0,Standard,Damaged,Awaiting investigation
+P00201,C009,Warehouse_B,Site_26,2025-01-14,2025-01-22,Returned,1.0,Return,Good,Inspected on return
+P00202,C016,Warehouse_C,Site_11,2025-03-24,2025-03-30,Late Return,0.0,Standard,Good,
+P00203,C013,Warehouse_C,Site_3,2025-02-11,2025-02-21,Late Return,0.0,Express,Good,Awaiting investigation
+P00204,C008,Warehouse_A,Site_1,2025-01-14,2025-01-17,Late Return,0.0,Return,Good,Inspected on return
+P00205,C008,Warehouse_A,Site_10,2025-05-23,2025-05-26,Returned,0.0,Express,Good,Flagged for delay
+P00206,C007,Warehouse_A,Site_12,2025-02-22,2025-03-02,Returned,0.0,Return,Damaged,
+P00207,C020,Warehouse_A,Site_8,2025-05-15,2025-05-21,Returned,0.0,Express,Good,Awaiting investigation
+P00208,C005,Warehouse_C,Site_29,2025-06-06,2025-06-15,Returned,0.0,Express,Good,Flagged for delay
+P00209,C012,Warehouse_A,Site_14,2025-06-06,2025-06-16,Late Return,3.0,Standard,Good,Inspected on return
+P00210,C011,Warehouse_A,Site_16,2025-02-02,2025-02-09,Returned,3.0,Return,Good,Inspected on return
+P00211,C013,Warehouse_C,Site_3,2025-05-03,2025-05-11,Returned,0.0,Standard,Good,Inspected on return
+P00212,C019,Warehouse_A,Site_23,2025-02-16,2025-02-23,Returned,1.0,Return,Good,Inspected on return
+P00213,C009,Warehouse_C,Site_24,2025-06-06,2025-06-14,Returned,2.0,Return,Good,Flagged for delay
+P00214,C020,Warehouse_B,Site_23,2025-05-10,2025-05-15,Late Return,0.0,Return,Good,Awaiting investigation
+P00215,C015,Warehouse_C,Site_6,2025-01-26,2025-02-01,Returned,0.0,Standard,Good,Flagged for delay
+P00216,C014,Warehouse_B,Site_22,2025-03-15,2025-03-27,Returned,3.0,Express,Good,
+P00217,C020,Warehouse_A,Site_8,2025-02-15,2025-02-25,Returned,0.0,Standard,Good,Flagged for delay
+P00218,C019,Warehouse_C,Site_22,2025-04-21,2025-04-28,Returned,1.0,Standard,Damaged,Awaiting investigation
+P00219,C007,Warehouse_A,Site_7,2025-05-13,2025-05-27,Late Return,2.0,Return,Good,Awaiting investigation
+P00220,C014,Warehouse_C,Site_13,2025-01-31,2025-02-05,Returned,0.0,Express,Good,Inspected on return
+P00221,C010,Warehouse_B,Site_7,2025-02-09,,In Transit,0.0,Return,Good,Inspected on return
+P00222,C019,Warehouse_A,Site_29,2025-05-31,2025-06-07,Returned,0.0,Express,Good,Flagged for delay
+P00223,C006,Warehouse_A,Site_23,2025-06-13,,Lost,3.0,Express,Lost,Awaiting investigation
+P00224,C010,Warehouse_A,Site_29,2025-01-01,2025-01-06,Returned,,Express,Good,Awaiting investigation
+P00225,C020,Warehouse_A,Site_6,2025-05-29,2025-06-09,Returned,,Return,Good,Inspected on return
+P00226,C003,Warehouse_A,Site_29,2025-02-26,2025-03-05,Late Return,2.0,Standard,Good,
+P00227,C017,Warehouse_A,Site_9,2025-01-25,,In Transit,0.0,Standard,Good,
+P00228,C012,Warehouse_C,Site_25,2025-05-10,2025-05-14,Returned,,Return,Damaged,Awaiting investigation
+P00229,C006,Warehouse_A,Site_13,2025-05-08,2025-05-21,Returned,0.0,Return,Good,Awaiting investigation
+P00230,C002,Warehouse_A,Site_6,2025-06-01,2025-06-09,Returned,0.0,Return,Good,
+P00231,C009,Warehouse_A,Site_15,2025-06-10,2025-06-23,Late Return,0.0,Express,Good,Inspected on return
+P00232,C016,Warehouse_A,Site_5,2025-06-05,2025-06-14,Late Return,0.0,Express,Damaged,Awaiting investigation
+P00233,C017,Warehouse_C,Site_18,2025-04-15,2025-04-23,Returned,0.0,Standard,Good,Awaiting investigation
+P00234,C004,Warehouse_C,Site_23,2025-04-14,2025-04-23,Returned,0.0,Standard,Good,
+P00235,C002,Warehouse_A,Site_6,2025-03-03,2025-03-16,Returned,3.0,Return,Good,Flagged for delay
+P00236,C006,Warehouse_C,Site_8,2025-01-01,2025-01-08,Late Return,3.0,Standard,Good,
+P00237,C014,Warehouse_B,Site_13,2025-04-23,2025-04-28,Returned,0.0,Express,Good,
+P00238,C006,Warehouse_A,Site_29,2025-05-09,2025-05-16,Returned,2.0,Return,Good,
+P00239,C014,Warehouse_C,Site_7,2025-04-20,2025-04-29,Returned,0.0,Express,Damaged,
+P00240,C010,Warehouse_A,Site_6,2025-02-01,,Lost,0.0,Standard,Lost,Inspected on return
+P00241,C004,Warehouse_B,Site_25,2025-01-08,2025-01-13,Returned,0.0,Return,Good,Flagged for delay
+P00242,C006,Warehouse_C,Site_28,2025-03-13,2025-03-23,Returned,3.0,Standard,Good,Flagged for delay
+P00243,C010,Warehouse_C,Site_23,2025-04-07,2025-04-12,Returned,1.0,Express,Damaged,
+P00244,C020,Warehouse_C,Site_1,2025-03-29,2025-04-14,Late Return,3.0,Return,Damaged,Awaiting investigation
+P00245,C019,Warehouse_B,Site_28,2025-06-14,2025-06-26,Returned,3.0,Return,Damaged,Inspected on return
+P00246,C013,Warehouse_B,Site_9,2025-01-07,2025-01-16,Returned,0.0,Express,Damaged,Inspected on return
+P00247,C008,Warehouse_A,Site_6,2025-04-22,,Lost,2.0,Return,Lost,
+P00248,C019,Warehouse_A,Site_29,2025-01-29,2025-02-02,Late Return,1.0,Return,Damaged,
+P00249,C011,Warehouse_C,Site_24,2025-05-28,2025-06-01,Returned,0.0,Return,Good,
+P00250,C002,Warehouse_B,Site_28,2025-04-29,,Lost,1.0,Standard,Lost,Inspected on return
+P00251,C002,Warehouse_A,Site_8,2025-02-06,2025-02-20,Late Return,3.0,Return,Good,
+P00252,C001,Warehouse_A,Site_27,2025-06-21,,In Transit,0.0,Express,Good,Flagged for delay
+P00253,C011,Warehouse_A,Site_21,2025-03-27,2025-04-09,Returned,1.0,Express,Good,Inspected on return
+P00254,C015,Warehouse_C,Site_25,2025-02-28,2025-03-06,Returned,3.0,Standard,Good,Awaiting investigation
+P00255,C001,Warehouse_A,Site_7,2025-01-14,2025-01-25,Returned,0.0,Express,Good,
+P00256,C020,Warehouse_B,Site_5,2025-01-22,2025-02-03,Returned,0.0,Return,Good,
+P00257,C002,Warehouse_B,Site_11,2025-04-19,2025-05-02,Returned,0.0,Standard,Damaged,Awaiting investigation
+P00258,C001,Warehouse_A,Site_28,2025-05-08,,Lost,2.0,Return,Lost,Inspected on return
+P00259,C018,Warehouse_C,Site_26,2025-02-10,2025-02-20,Returned,3.0,Standard,Good,Awaiting investigation
+P00260,C017,Warehouse_C,Site_9,2025-05-02,2025-05-15,Returned,1.0,Express,Good,Awaiting investigation
+P00261,C016,Warehouse_A,Site_16,2025-01-27,2025-02-09,Returned,0.0,Standard,Good,Inspected on return
+P00262,C012,Warehouse_B,Site_25,2025-01-12,2025-01-23,Late Return,2.0,Return,Good,Awaiting investigation
+P00263,C007,Warehouse_B,Site_21,2025-05-25,2025-06-06,Returned,0.0,Express,Good,Awaiting investigation
+P00264,C005,Warehouse_C,Site_18,2025-05-10,,In Transit,1.0,Return,Good,
+P00265,C019,Warehouse_A,Site_5,2025-02-20,2025-03-06,Late Return,2.0,Standard,Good,Awaiting investigation
+P00266,C019,Warehouse_B,Site_21,2025-01-11,2025-01-14,Returned,0.0,Express,Good,
+P00267,C006,Warehouse_A,Site_3,2025-02-23,2025-03-05,Returned,0.0,Express,Damaged,
+P00268,C011,Warehouse_A,Site_6,2025-03-10,2025-03-16,Returned,0.0,Standard,Good,Awaiting investigation
+P00269,C017,Warehouse_C,Site_1,2025-03-22,,In Transit,3.0,Standard,Good,
+P00270,C019,Warehouse_C,Site_14,2025-06-03,2025-06-14,Returned,0.0,Express,Good,Inspected on return
+P00271,C011,Warehouse_A,Site_22,2025-05-09,2025-05-19,Late Return,0.0,Standard,Good,
+P00272,C019,Warehouse_C,Site_11,2025-02-08,,Lost,0.0,Return,Lost,
+P00273,C014,Warehouse_B,Site_22,2025-04-18,,In Transit,1.0,Express,Good,
+P00274,C015,Warehouse_A,Site_29,2025-04-12,2025-04-19,Returned,0.0,Standard,Good,
+P00275,C012,Warehouse_B,Site_8,2025-02-18,2025-03-03,Late Return,2.0,Express,Good,
+P00276,C020,Warehouse_B,Site_2,2025-02-16,2025-02-27,Returned,1.0,Return,Good,
+P00277,C020,Warehouse_B,Site_24,2025-05-29,2025-06-06,Late Return,0.0,Express,Good,
+P00278,C020,Warehouse_A,Site_13,2025-01-25,2025-02-07,Returned,0.0,Return,Damaged,Awaiting investigation
+P00279,C013,Warehouse_A,Site_8,2025-04-19,2025-05-01,Returned,0.0,Express,Good,
+P00280,C012,Warehouse_C,Site_27,2025-05-25,2025-06-02,Returned,,Express,Damaged,Flagged for delay
+P00281,C001,Warehouse_B,Site_22,2025-01-14,2025-01-25,Late Return,,Standard,Good,Awaiting investigation
+P00282,C014,Warehouse_A,Site_27,2025-03-13,2025-03-17,Returned,0.0,Standard,Good,Flagged for delay
+P00283,C002,Warehouse_A,Site_24,2025-04-26,2025-05-09,Returned,,Return,Damaged,
+P00284,C017,Warehouse_B,Site_3,2025-01-17,2025-01-25,Returned,3.0,Express,Good,Awaiting investigation
+P00285,C007,Warehouse_C,Site_30,2025-02-14,,Lost,0.0,Standard,Lost,
+P00286,C005,Warehouse_A,Site_17,2025-06-20,2025-06-29,Late Return,0.0,Return,Good,Awaiting investigation
+P00287,C007,Warehouse_B,Site_10,2025-01-04,2025-01-10,Late Return,2.0,Express,Good,
+P00288,C001,Warehouse_B,Site_11,2025-06-19,2025-06-29,Returned,1.0,Return,Good,Flagged for delay
+P00289,C002,Warehouse_C,Site_17,2025-02-03,2025-02-10,Returned,3.0,Standard,Damaged,
+P00290,C003,Warehouse_C,Site_24,2025-05-03,2025-05-06,Returned,,Standard,Good,Inspected on return
+P00291,C018,Warehouse_C,Site_29,2025-01-16,,In Transit,1.0,Return,Good,Inspected on return
+P00292,C009,Warehouse_C,Site_22,2025-01-10,2025-01-22,Returned,3.0,Express,Good,Awaiting investigation
+P00293,C017,Warehouse_B,Site_11,2025-03-06,2025-03-19,Returned,3.0,Standard,Good,
+P00294,C007,Warehouse_B,Site_16,2025-03-09,2025-03-20,Returned,0.0,Standard,Good,
+P00295,C003,Warehouse_B,Site_3,2025-03-14,2025-03-24,Returned,,Standard,Good,
+P00296,C007,Warehouse_A,Site_6,2025-02-06,2025-02-16,Returned,2.0,Return,Damaged,
+P00297,C014,Warehouse_C,Site_11,2025-03-04,2025-03-11,Late Return,3.0,Standard,Good,Inspected on return
+P00298,C014,Warehouse_C,Site_12,2025-02-21,2025-02-28,Returned,1.0,Express,Damaged,
+P00299,C012,Warehouse_B,Site_1,2025-02-23,,Lost,2.0,Express,Lost,
+P00300,C020,Warehouse_B,Site_16,2025-04-20,2025-05-01,Returned,0.0,Standard,Good,Flagged for delay
+P00301,C010,Warehouse_C,Site_7,2025-01-03,,Lost,3.0,Express,Lost,Inspected on return
+P00302,C019,Warehouse_B,Site_17,2025-02-23,2025-03-06,Returned,,Express,Damaged,Flagged for delay
+P00303,C015,Warehouse_B,Site_3,2025-05-02,2025-05-14,Returned,0.0,Return,Good,Inspected on return
+P00304,C017,Warehouse_B,Site_2,2025-03-23,,In Transit,3.0,Express,Good,Flagged for delay
+P00305,C020,Warehouse_C,Site_19,2025-01-03,2025-01-13,Returned,0.0,Standard,Good,
+P00306,C016,Warehouse_C,Site_23,2025-03-30,,Lost,0.0,Return,Lost,
+P00307,C006,Warehouse_C,Site_14,2025-04-11,2025-04-21,Returned,0.0,Return,Good,Flagged for delay
+P00308,C016,Warehouse_C,Site_26,2025-01-29,2025-02-02,Returned,0.0,Express,Damaged,
+P00309,C016,Warehouse_C,Site_26,2025-01-09,2025-01-16,Late Return,,Return,Good,Awaiting investigation
+P00310,C012,Warehouse_C,Site_14,2025-05-04,2025-05-17,Returned,,Express,Good,Awaiting investigation
+P00311,C014,Warehouse_B,Site_12,2025-03-31,2025-04-07,Returned,0.0,Express,Damaged,Inspected on return
+P00312,C014,Warehouse_B,Site_15,2025-04-24,2025-05-01,Returned,2.0,Express,Damaged,
+P00313,C018,Warehouse_C,Site_19,2025-02-25,2025-02-28,Returned,0.0,Return,Damaged,Inspected on return
+P00314,C003,Warehouse_B,Site_2,2025-05-27,,Lost,1.0,Standard,Lost,
+P00315,C003,Warehouse_A,Site_23,2025-02-28,2025-03-11,Returned,0.0,Return,Damaged,Flagged for delay
+P00316,C016,Warehouse_C,Site_10,2025-04-10,2025-04-19,Late Return,,Express,Damaged,
+P00317,C017,Warehouse_C,Site_28,2025-02-14,2025-02-23,Returned,0.0,Express,Good,Inspected on return
+P00318,C012,Warehouse_C,Site_15,2025-06-09,2025-06-18,Returned,0.0,Standard,Good,Awaiting investigation
+P00319,C020,Warehouse_B,Site_30,2025-04-10,,Lost,0.0,Standard,Lost,Inspected on return
+P00320,C019,Warehouse_A,Site_5,2025-01-12,2025-01-25,Returned,,Return,Damaged,Inspected on return
+P00321,C013,Warehouse_C,Site_2,2025-01-17,2025-01-27,Returned,,Standard,Damaged,Inspected on return
+P00322,C007,Warehouse_B,Site_14,2025-03-11,2025-03-23,Late Return,0.0,Express,Good,Flagged for delay
+P00323,C009,Warehouse_C,Site_21,2025-03-04,2025-03-12,Late Return,1.0,Standard,Good,
+P00324,C018,Warehouse_C,Site_9,2025-05-28,2025-06-11,Returned,1.0,Return,Good,Flagged for delay
+P00325,C009,Warehouse_C,Site_26,2025-01-12,2025-01-23,Late Return,3.0,Standard,Good,Awaiting investigation
+P00326,C005,Warehouse_A,Site_27,2025-04-30,,Lost,0.0,Return,Lost,Flagged for delay
+P00327,C015,Warehouse_B,Site_30,2025-01-14,,In Transit,,Standard,Good,
+P00328,C004,Warehouse_B,Site_14,2025-06-13,2025-06-22,Returned,0.0,Express,Good,
+P00329,C001,Warehouse_B,Site_28,2025-02-02,2025-02-10,Returned,3.0,Return,Good,Flagged for delay
+P00330,C005,Warehouse_B,Site_8,2025-01-26,2025-02-01,Returned,0.0,Return,Good,Flagged for delay
+P00331,C017,Warehouse_A,Site_16,2025-05-21,2025-05-30,Returned,0.0,Return,Damaged,Flagged for delay
+P00332,C012,Warehouse_C,Site_26,2025-03-16,,Lost,1.0,Express,Lost,
+P00333,C002,Warehouse_A,Site_11,2025-06-24,2025-07-10,Returned,3.0,Express,Good,Inspected on return
+P00334,C001,Warehouse_A,Site_27,2025-03-22,2025-04-01,Returned,3.0,Express,Damaged,
+P00335,C007,Warehouse_B,Site_21,2025-04-11,,In Transit,0.0,Express,Good,Awaiting investigation
+P00336,C004,Warehouse_C,Site_9,2025-05-27,2025-06-09,Returned,0.0,Express,Good,Awaiting investigation
+P00337,C005,Warehouse_C,Site_9,2025-05-04,2025-05-12,Returned,3.0,Express,Good,Flagged for delay
+P00338,C013,Warehouse_B,Site_24,2025-01-25,2025-02-08,Returned,1.0,Express,Damaged,Flagged for delay
+P00339,C010,Warehouse_C,Site_26,2025-06-23,,Lost,0.0,Express,Lost,Flagged for delay
+P00340,C018,Warehouse_A,Site_6,2025-02-22,2025-02-26,Returned,,Standard,Good,
+P00341,C001,Warehouse_B,Site_17,2025-05-11,2025-05-20,Returned,2.0,Express,Damaged,
+P00342,C009,Warehouse_A,Site_10,2025-05-02,2025-05-13,Returned,0.0,Standard,Good,Flagged for delay
+P00343,C012,Warehouse_A,Site_28,2025-01-17,2025-01-26,Late Return,3.0,Standard,Good,Inspected on return
+P00344,C020,Warehouse_C,Site_22,2025-06-25,2025-07-03,Returned,0.0,Standard,Good,Flagged for delay
+P00345,C003,Warehouse_A,Site_6,2025-04-27,2025-05-10,Late Return,0.0,Standard,Damaged,
+P00346,C020,Warehouse_A,Site_29,2025-03-13,2025-03-19,Returned,2.0,Return,Good,Inspected on return
+P00347,C017,Warehouse_A,Site_29,2025-04-05,2025-04-19,Returned,3.0,Return,Damaged,
+P00348,C006,Warehouse_B,Site_18,2025-04-12,2025-04-20,Returned,0.0,Standard,Good,Flagged for delay
+P00349,C013,Warehouse_C,Site_6,2025-02-10,2025-02-18,Returned,0.0,Standard,Good,Inspected on return
+P00350,C019,Warehouse_A,Site_1,2025-05-28,2025-06-01,Returned,0.0,Return,Good,Awaiting investigation
+P00351,C002,Warehouse_B,Site_9,2025-01-02,2025-01-05,Returned,0.0,Express,Damaged,Flagged for delay
+P00352,C009,Warehouse_A,Site_27,2025-06-03,2025-06-14,Returned,3.0,Standard,Good,Inspected on return
+P00353,C013,Warehouse_B,Site_4,2025-06-23,,Lost,0.0,Express,Lost,
+P00354,C007,Warehouse_C,Site_29,2025-04-16,2025-04-26,Late Return,,Express,Good,
+P00355,C008,Warehouse_B,Site_14,2025-05-03,2025-05-17,Returned,3.0,Return,Good,
+P00356,C005,Warehouse_B,Site_18,2025-06-09,2025-06-19,Late Return,0.0,Return,Damaged,Awaiting investigation
+P00357,C020,Warehouse_B,Site_14,2025-04-02,2025-04-18,Late Return,3.0,Return,Good,Flagged for delay
+P00358,C016,Warehouse_C,Site_17,2025-03-25,2025-04-03,Returned,1.0,Express,Good,
+P00359,C002,Warehouse_A,Site_7,2025-01-03,2025-01-15,Returned,,Standard,Good,Flagged for delay
+P00360,C017,Warehouse_B,Site_9,2025-01-12,2025-01-23,Late Return,,Express,Damaged,Flagged for delay
+P00361,C013,Warehouse_B,Site_23,2025-05-02,,In Transit,0.0,Standard,Good,Inspected on return
+P00362,C017,Warehouse_A,Site_23,2025-04-10,2025-04-21,Returned,2.0,Express,Good,Inspected on return
+P00363,C002,Warehouse_A,Site_10,2025-02-01,2025-02-09,Returned,0.0,Standard,Good,Inspected on return
+P00364,C019,Warehouse_B,Site_22,2025-05-30,,In Transit,2.0,Express,Good,Flagged for delay
+P00365,C001,Warehouse_B,Site_26,2025-04-15,2025-04-27,Late Return,0.0,Express,Good,
+P00366,C018,Warehouse_B,Site_29,2025-04-03,2025-04-09,Returned,3.0,Standard,Damaged,Awaiting investigation
+P00367,C009,Warehouse_C,Site_13,2025-02-18,,In Transit,3.0,Return,Good,Awaiting investigation
+P00368,C010,Warehouse_A,Site_25,2025-01-24,2025-01-31,Late Return,1.0,Standard,Good,
+P00369,C004,Warehouse_A,Site_11,2025-02-19,2025-03-02,Returned,0.0,Return,Good,
+P00370,C008,Warehouse_A,Site_24,2025-04-27,2025-05-01,Returned,0.0,Standard,Good,
+P00371,C018,Warehouse_A,Site_15,2025-06-13,2025-06-21,Late Return,3.0,Express,Good,Inspected on return
+P00372,C014,Warehouse_C,Site_28,2025-05-05,2025-05-10,Returned,1.0,Return,Good,Awaiting investigation
+P00373,C003,Warehouse_A,Site_30,2025-05-23,2025-06-02,Returned,0.0,Standard,Good,Flagged for delay
+P00374,C008,Warehouse_B,Site_10,2025-03-28,2025-04-01,Returned,0.0,Express,Good,Flagged for delay
+P00375,C008,Warehouse_A,Site_23,2025-03-10,2025-03-21,Returned,3.0,Express,Damaged,Awaiting investigation
+P00376,C019,Warehouse_A,Site_9,2025-04-21,2025-05-05,Returned,3.0,Express,Good,Inspected on return
+P00377,C019,Warehouse_C,Site_13,2025-03-11,2025-03-22,Returned,0.0,Standard,Good,
+P00378,C020,Warehouse_A,Site_1,2025-06-12,2025-06-17,Returned,2.0,Standard,Good,Inspected on return
+P00379,C007,Warehouse_C,Site_7,2025-06-13,2025-06-28,Returned,2.0,Return,Damaged,Flagged for delay
+P00380,C012,Warehouse_C,Site_24,2025-04-28,2025-05-13,Returned,3.0,Standard,Good,Inspected on return
+P00381,C005,Warehouse_A,Site_5,2025-04-15,2025-04-25,Returned,0.0,Express,Good,Inspected on return
+P00382,C004,Warehouse_B,Site_11,2025-01-01,2025-01-07,Returned,0.0,Express,Good,Awaiting investigation
+P00383,C010,Warehouse_B,Site_9,2025-04-17,2025-04-26,Returned,2.0,Express,Good,
+P00384,C016,Warehouse_C,Site_28,2025-04-30,2025-05-09,Returned,1.0,Standard,Good,Flagged for delay
+P00385,C006,Warehouse_C,Site_1,2025-05-28,,In Transit,0.0,Return,Good,Inspected on return
+P00386,C015,Warehouse_A,Site_4,2025-02-06,2025-02-10,Returned,1.0,Standard,Good,
+P00387,C016,Warehouse_B,Site_24,2025-02-28,2025-03-07,Returned,2.0,Express,Good,Awaiting investigation
+P00388,C010,Warehouse_A,Site_14,2025-01-20,2025-02-04,Returned,2.0,Standard,Good,
+P00389,C005,Warehouse_C,Site_28,2025-02-19,,Lost,2.0,Standard,Lost,
+P00390,C007,Warehouse_B,Site_2,2025-06-20,2025-06-28,Returned,0.0,Standard,Good,
+P00391,C016,Warehouse_B,Site_1,2025-05-08,2025-05-15,Returned,3.0,Standard,Good,Awaiting investigation
+P00392,C008,Warehouse_B,Site_26,2025-04-29,2025-05-08,Returned,0.0,Express,Good,
+P00393,C013,Warehouse_A,Site_22,2025-04-06,,Lost,3.0,Return,Lost,Flagged for delay
+P00394,C004,Warehouse_A,Site_15,2025-03-27,2025-04-05,Late Return,,Express,Damaged,
+P00395,C017,Warehouse_C,Site_12,2025-06-20,2025-06-24,Returned,0.0,Express,Good,Inspected on return
+P00396,C009,Warehouse_C,Site_6,2025-05-16,2025-05-29,Returned,,Standard,Damaged,Inspected on return
+P00397,C019,Warehouse_B,Site_16,2025-02-15,2025-02-21,Late Return,1.0,Standard,Damaged,Awaiting investigation
+P00398,C012,Warehouse_B,Site_26,2025-05-22,2025-06-04,Late Return,2.0,Standard,Good,Awaiting investigation
+P00399,C008,Warehouse_A,Site_29,2025-03-04,,Lost,0.0,Standard,Lost,
+P00400,C011,Warehouse_B,Site_13,2025-03-30,2025-04-12,Late Return,2.0,Express,Good,Flagged for delay
+P00401,C002,Warehouse_A,Site_21,2025-04-08,2025-04-16,Late Return,2.0,Standard,Good,Inspected on return
+P00402,C019,Warehouse_B,Site_6,2025-03-23,2025-03-30,Late Return,2.0,Express,Damaged,
+P00403,C008,Warehouse_B,Site_30,2025-05-09,2025-05-23,Returned,3.0,Return,Good,
+P00404,C002,Warehouse_C,Site_2,2025-03-06,2025-03-14,Late Return,1.0,Express,Good,Flagged for delay
+P00405,C002,Warehouse_A,Site_27,2025-04-03,2025-04-06,Returned,0.0,Express,Good,
+P00406,C003,Warehouse_A,Site_18,2025-04-12,2025-04-22,Returned,0.0,Return,Good,Inspected on return
+P00407,C018,Warehouse_C,Site_7,2025-03-15,2025-03-20,Returned,0.0,Express,Good,Flagged for delay
+P00408,C020,Warehouse_B,Site_30,2025-03-13,2025-03-20,Returned,0.0,Return,Damaged,Inspected on return
+P00409,C015,Warehouse_A,Site_17,2025-06-02,2025-06-10,Returned,1.0,Standard,Good,
+P00410,C007,Warehouse_A,Site_16,2025-01-15,2025-01-23,Late Return,0.0,Return,Good,Inspected on return
+P00411,C007,Warehouse_B,Site_21,2025-04-18,2025-04-25,Returned,0.0,Return,Good,Inspected on return
+P00412,C011,Warehouse_A,Site_13,2025-03-21,2025-04-01,Returned,,Standard,Good,Inspected on return
+P00413,C006,Warehouse_C,Site_8,2025-02-20,2025-02-28,Returned,,Standard,Good,
+P00414,C017,Warehouse_B,Site_9,2025-03-19,2025-03-28,Late Return,2.0,Standard,Good,Awaiting investigation
+P00415,C008,Warehouse_B,Site_10,2025-01-27,,Lost,2.0,Standard,Lost,Awaiting investigation
+P00416,C016,Warehouse_B,Site_4,2025-02-04,2025-02-08,Late Return,0.0,Express,Good,Inspected on return
+P00417,C014,Warehouse_C,Site_5,2025-03-18,,Lost,1.0,Express,Lost,Flagged for delay
+P00418,C016,Warehouse_B,Site_24,2025-04-04,2025-04-16,Returned,0.0,Standard,Good,
+P00419,C003,Warehouse_A,Site_20,2025-06-08,2025-06-11,Returned,,Standard,Good,Inspected on return
+P00420,C016,Warehouse_A,Site_7,2025-02-11,2025-02-20,Returned,1.0,Express,Damaged,
+P00421,C005,Warehouse_B,Site_9,2025-05-09,2025-05-22,Returned,1.0,Return,Good,Flagged for delay
+P00422,C006,Warehouse_C,Site_28,2025-05-21,2025-05-28,Late Return,,Standard,Damaged,
+P00423,C018,Warehouse_B,Site_29,2025-05-17,2025-05-29,Returned,0.0,Express,Good,Flagged for delay
+P00424,C008,Warehouse_C,Site_20,2025-05-01,,In Transit,2.0,Return,Good,Awaiting investigation
+P00425,C002,Warehouse_A,Site_18,2025-06-01,2025-06-08,Returned,0.0,Return,Good,
+P00426,C016,Warehouse_A,Site_29,2025-06-01,,Lost,0.0,Express,Lost,Inspected on return
+P00427,C001,Warehouse_B,Site_30,2025-06-16,,Lost,0.0,Return,Lost,
+P00428,C005,Warehouse_C,Site_17,2025-05-27,2025-06-06,Returned,1.0,Return,Good,Awaiting investigation
+P00429,C015,Warehouse_C,Site_30,2025-06-24,2025-06-28,Late Return,0.0,Return,Good,Inspected on return
+P00430,C007,Warehouse_B,Site_23,2025-05-29,2025-06-05,Returned,0.0,Express,Good,Flagged for delay
+P00431,C004,Warehouse_C,Site_8,2025-06-09,2025-06-20,Returned,0.0,Express,Good,Inspected on return
+P00432,C016,Warehouse_B,Site_25,2025-01-02,2025-01-06,Returned,0.0,Standard,Good,Flagged for delay
+P00433,C005,Warehouse_A,Site_17,2025-04-28,2025-05-03,Late Return,2.0,Standard,Good,Awaiting investigation
+P00434,C003,Warehouse_A,Site_25,2025-01-24,,Lost,1.0,Return,Lost,
+P00435,C014,Warehouse_B,Site_11,2025-03-09,2025-03-18,Returned,0.0,Express,Good,
+P00436,C006,Warehouse_B,Site_11,2025-02-05,,Lost,2.0,Return,Lost,Flagged for delay
+P00437,C005,Warehouse_B,Site_19,2025-05-11,2025-05-24,Returned,0.0,Return,Good,Awaiting investigation
+P00438,C006,Warehouse_A,Site_5,2025-01-13,,Lost,0.0,Return,Lost,
+P00439,C005,Warehouse_C,Site_20,2025-01-05,2025-01-13,Returned,1.0,Express,Good,
+P00440,C010,Warehouse_A,Site_14,2025-02-19,2025-03-03,Returned,0.0,Return,Good,
+P00441,C015,Warehouse_B,Site_15,2025-03-11,,In Transit,0.0,Express,Good,Awaiting investigation
+P00442,C005,Warehouse_B,Site_19,2025-01-02,2025-01-09,Returned,3.0,Standard,Good,Inspected on return
+P00443,C012,Warehouse_C,Site_10,2025-04-26,2025-05-05,Returned,3.0,Return,Damaged,Flagged for delay
+P00444,C007,Warehouse_B,Site_25,2025-01-31,2025-02-12,Returned,,Return,Good,
+P00445,C008,Warehouse_B,Site_24,2025-05-01,2025-05-04,Late Return,,Standard,Good,
+P00446,C012,Warehouse_C,Site_3,2025-05-16,2025-05-26,Returned,1.0,Express,Good,
+P00447,C003,Warehouse_B,Site_20,2025-04-14,,In Transit,3.0,Express,Good,
+P00448,C013,Warehouse_B,Site_20,2025-04-14,2025-04-22,Returned,1.0,Express,Good,Flagged for delay
+P00449,C020,Warehouse_B,Site_26,2025-05-30,2025-06-02,Late Return,0.0,Express,Good,
+P00450,C003,Warehouse_A,Site_15,2025-02-07,2025-02-14,Late Return,1.0,Standard,Good,Awaiting investigation
+P00451,C017,Warehouse_B,Site_2,2025-04-24,2025-05-03,Returned,2.0,Express,Good,Awaiting investigation
+P00452,C008,Warehouse_B,Site_25,2025-03-16,2025-03-25,Returned,0.0,Return,Damaged,Inspected on return
+P00453,C004,Warehouse_C,Site_12,2025-02-24,,In Transit,3.0,Express,Good,Inspected on return
+P00454,C014,Warehouse_C,Site_27,2025-06-20,,In Transit,,Standard,Good,Awaiting investigation
+P00455,C012,Warehouse_C,Site_11,2025-04-11,2025-04-15,Returned,1.0,Standard,Good,Inspected on return
+P00456,C017,Warehouse_C,Site_23,2025-03-23,2025-04-04,Returned,2.0,Return,Good,
+P00457,C015,Warehouse_C,Site_3,2025-05-14,2025-05-20,Late Return,0.0,Standard,Damaged,
+P00458,C014,Warehouse_B,Site_1,2025-05-23,2025-06-07,Returned,2.0,Return,Good,Flagged for delay
+P00459,C010,Warehouse_B,Site_20,2025-01-20,2025-01-31,Late Return,0.0,Express,Good,Awaiting investigation
+P00460,C007,Warehouse_A,Site_5,2025-02-23,,In Transit,0.0,Return,Good,
+P00461,C010,Warehouse_A,Site_20,2025-01-14,2025-01-22,Late Return,0.0,Express,Damaged,Flagged for delay
+P00462,C014,Warehouse_A,Site_5,2025-06-29,,In Transit,0.0,Express,Good,
+P00463,C020,Warehouse_C,Site_6,2025-05-14,2025-05-18,Late Return,0.0,Return,Good,Inspected on return
+P00464,C010,Warehouse_B,Site_1,2025-01-25,,In Transit,,Express,Good,
+P00465,C007,Warehouse_B,Site_21,2025-01-12,2025-01-19,Returned,1.0,Return,Good,Inspected on return
+P00466,C007,Warehouse_B,Site_3,2025-03-01,2025-03-14,Late Return,,Return,Good,Awaiting investigation
+P00467,C004,Warehouse_B,Site_8,2025-03-01,2025-03-06,Returned,,Standard,Good,Flagged for delay
+P00468,C012,Warehouse_A,Site_2,2025-06-11,2025-06-24,Returned,0.0,Standard,Good,
+P00469,C020,Warehouse_B,Site_13,2025-06-08,,In Transit,,Return,Good,Flagged for delay
+P00470,C020,Warehouse_A,Site_28,2025-03-24,2025-04-04,Returned,0.0,Express,Good,
+P00471,C004,Warehouse_C,Site_11,2025-04-25,2025-04-28,Late Return,,Standard,Good,
+P00472,C012,Warehouse_B,Site_22,2025-04-13,2025-04-19,Returned,0.0,Return,Good,Flagged for delay
+P00473,C019,Warehouse_A,Site_8,2025-06-13,,Lost,1.0,Express,Lost,Awaiting investigation
+P00474,C009,Warehouse_B,Site_9,2025-06-27,2025-07-02,Late Return,,Return,Good,
+P00475,C001,Warehouse_A,Site_5,2025-04-02,,Lost,3.0,Express,Lost,Awaiting investigation
+P00476,C012,Warehouse_B,Site_19,2025-03-27,2025-04-02,Returned,2.0,Standard,Good,Inspected on return
+P00477,C016,Warehouse_C,Site_17,2025-05-29,2025-06-08,Late Return,3.0,Standard,Good,
+P00478,C013,Warehouse_A,Site_9,2025-02-27,2025-03-06,Late Return,,Standard,Damaged,
+P00479,C020,Warehouse_C,Site_16,2025-03-23,,In Transit,2.0,Standard,Good,Flagged for delay
+P00480,C001,Warehouse_C,Site_18,2025-06-13,2025-06-26,Returned,0.0,Standard,Good,Awaiting investigation
+P00481,C020,Warehouse_C,Site_5,2025-02-21,2025-02-27,Returned,,Return,Damaged,
+P00482,C015,Warehouse_A,Site_17,2025-04-22,2025-04-28,Late Return,1.0,Express,Good,Flagged for delay
+P00483,C015,Warehouse_A,Site_24,2025-06-29,2025-07-08,Returned,2.0,Return,Damaged,Awaiting investigation
+P00484,C012,Warehouse_C,Site_16,2025-04-23,2025-05-03,Returned,0.0,Standard,Good,
+P00485,C012,Warehouse_B,Site_29,2025-05-09,2025-05-12,Returned,0.0,Return,Damaged,Awaiting investigation
+P00486,C004,Warehouse_C,Site_12,2025-02-27,2025-03-13,Late Return,1.0,Express,Good,
+P00487,C010,Warehouse_C,Site_15,2025-01-08,2025-01-11,Returned,0.0,Express,Good,Flagged for delay
+P00488,C011,Warehouse_C,Site_12,2025-03-28,2025-04-02,Returned,2.0,Express,Good,
+P00489,C008,Warehouse_A,Site_3,2025-01-08,2025-01-19,Returned,2.0,Standard,Good,Flagged for delay
+P00490,C016,Warehouse_C,Site_16,2025-04-19,2025-04-29,Returned,0.0,Standard,Good,Inspected on return
+P00491,C004,Warehouse_B,Site_22,2025-05-28,2025-06-05,Returned,2.0,Return,Good,Inspected on return
+P00492,C005,Warehouse_C,Site_3,2025-05-23,2025-05-28,Late Return,0.0,Express,Good,
+P00493,C013,Warehouse_B,Site_30,2025-01-05,2025-01-17,Late Return,2.0,Standard,Good,Awaiting investigation
+P00494,C006,Warehouse_C,Site_30,2025-02-07,2025-02-10,Returned,,Express,Good,Inspected on return
+P00495,C011,Warehouse_C,Site_20,2025-04-14,,In Transit,0.0,Standard,Good,Inspected on return
+P00496,C008,Warehouse_A,Site_21,2025-06-27,2025-07-03,Returned,0.0,Express,Good,Inspected on return
+P00497,C001,Warehouse_A,Site_24,2025-06-18,2025-06-22,Returned,0.0,Express,Good,Awaiting investigation
+P00498,C015,Warehouse_B,Site_18,2025-06-13,2025-06-18,Returned,1.0,Return,Good,
+P00499,C002,Warehouse_C,Site_24,2025-06-09,2025-06-13,Returned,,Standard,Good,
+P00500,C006,Warehouse_C,Site_30,2025-01-15,,In Transit,0.0,Express,Good,Awaiting investigation
